@@ -1,0 +1,76 @@
+footer {
+  background-color: var(--black);
+  padding-top: 80px;
+  padding-bottom: 40px;
+}
+footer .container .footer-content .footer-navs {
+  display: flex;
+  justify-content: space-between;
+  line-height: 32px;
+}
+footer .container .footer-content .footer-navs .width25 {
+  width: 25%;
+}
+footer .container .footer-content .footer-navs .width25 li {
+  list-style: none;
+}
+footer .container .footer-content .footer-navs .width25 li a {
+  text-decoration: none;
+  color: var(--white);
+  text-transform: capitalize;
+  font-size: 16px;
+}
+footer .container .footer-content .footer-navs .width25 li a:hover {
+  text-decoration: underline;
+}
+footer .container .footer-content .footer-social {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 60px;
+}
+footer .container .footer-content .footer-social .social-links {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+footer .container .footer-content .footer-social .social-links span {
+  color: var(--white);
+  text-transform: capitalize;
+}
+footer .container .footer-content .footer-social .social-links .social-icons .social-icon {
+  display: flex;
+  gap: 10px;
+}
+footer .container .footer-content .footer-social .social-links .social-icons .social-icon a {
+  border: 2px solid var(--white);
+  text-decoration: none;
+  color: var(--white);
+  padding: 15px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  width: 50px;
+  background-color: transparent;
+  opacity: 1;
+  z-index: 2;
+}
+footer .container .footer-content .footer-social .social-links .social-icons .social-icon a:hover {
+  background-color: var(--white);
+  transition: var(--transition);
+  color: var(--black);
+}
+footer .container .footer-content .footer-devider {
+  height: 1px;
+  background-color: var(--white);
+  margin: 32px 0;
+}
+footer .container .footer-content .footer-copyright {
+  color: var(--white);
+  display: flex;
+  justify-content: center;
+  text-transform: capitalize;
+}
+
+/*# sourceMappingURL=footer.css.map */

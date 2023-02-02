@@ -1,0 +1,49 @@
+.idea {
+  background-color: var(--black);
+  padding-bottom: 80px;
+}
+.idea .after-hero img {
+  background-image: linear-gradient(180deg, #cfd907, #000);
+}
+.idea .container .idea-topics {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 120px;
+}
+.idea .container .idea-topics .width-60 {
+  width: 60%;
+}
+.idea .container .idea-topics .width-60 .idea-content h1 {
+  color: var(--white);
+  padding-bottom: 32px;
+}
+.idea .container .idea-topics .width-60 .idea-content h1 span {
+  color: var(--primary-color);
+  font-size: 48px;
+  text-transform: capitalize;
+  font-weight: 700;
+  line-height: 56px;
+  display: inline;
+}
+.idea .container .idea-topics .width-60 .idea-content span {
+  color: var(--white);
+  display: block;
+  width: 70%;
+  padding-bottom: 32px;
+}
+.idea .container .idea-topics .width-60 .primary-btn {
+  background-color: var(--primary-color);
+}
+.idea .container .idea-topics .width-60 .primary-btn a {
+  color: var(--black);
+  font-weight: 700;
+}
+.idea .container .idea-topics .width-40 {
+  width: 40%;
+}
+.idea .container .idea-topics .width-40 img {
+  width: 50%;
+}
+
+/*# sourceMappingURL=idea.css.map */

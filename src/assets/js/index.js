@@ -1,0 +1,43 @@
+//-----------Owl Carrosel----------------
+
+$(document).ready(function(){
+    $('.owl-carousel').owlCarousel({
+        autoplay:true,
+        autoplayTimeout:3000,
+        autoplayHoverPause:true,
+        loop:true,
+        dots:false,
+        slideBy:1,
+        center:true,
+        mergeFit:true,
+        autoplaySpeed:1000,
+        margin:10,
+        responsiveClass:true,
+        navigation:true,
+        responsive:{
+            0:{
+                items:1,
+                nav:true
+            },
+            600:{
+                items:3,
+                nav:false
+            },
+            1000:{
+                items:4,
+                nav:true,
+                loop:true
+            },
+            1500:{
+                items:5,
+                nav:true,
+                loop:true
+            },
+            2430:{
+                items:6,
+                nav:true,
+                loop:true
+            }
+        }
+    })
+});

@@ -1,0 +1,13 @@
+
+//   sass --watch src/scss:src/assets/css
+
+@import 'base/theme';
+@import 'base/overright';
+@import 'base/veriables';
+@import 'module/header.scss';
+@import 'module/home-hero.scss';
+@import 'module/idea.scss';
+@import 'module/footer.scss';
+@import 'module/slider.scss';
+@import 'module/about.scss';
+@import 'module/blog.scss';

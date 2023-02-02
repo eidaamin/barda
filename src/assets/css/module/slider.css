@@ -1,0 +1,18 @@
+.slider {
+  background-color: var(--white);
+  padding: 120px 0;
+}
+.slider h1 {
+  color: var(--black);
+  display: flex;
+  justify-content: center;
+  padding-bottom: 32px;
+}
+.slider span {
+  padding-bottom: 80px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+/*# sourceMappingURL=slider.css.map */

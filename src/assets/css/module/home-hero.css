@@ -1,0 +1,31 @@
+.home-hero {
+  background-color: var(--primary-color);
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.home-hero .container .hero-content {
+  width: 50%;
+  position: relative;
+  z-index: 2;
+}
+.home-hero .container .hero-content .title {
+  margin-bottom: 24px;
+}
+.home-hero .container .hero-content .subtitle {
+  margin-bottom: 48px;
+}
+.home-hero .container .hero-content .subtitle span {
+  font-weight: 600;
+}
+.home-hero .hero-img {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+/*# sourceMappingURL=home-hero.css.map */

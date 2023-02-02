@@ -1,0 +1,53 @@
+.about .title-area {
+  background-color: var(--primary-color);
+  padding-top: 60px;
+  text-align: center;
+}
+.about .subtitle-area {
+  text-align: center;
+  padding-bottom: 60px;
+  padding-top: 10px;
+  background-color: var(--primary-color);
+}
+.about .footer-devider {
+  width: 100%;
+  height: 1px;
+  background-color: var(--black);
+  margin-bottom: 80px;
+}
+.about .container .about-content {
+  padding-bottom: 60px;
+}
+.about .container .about-content .img-area {
+  height: 600px;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-bottom: 32px;
+}
+.about .container .about-content p.about-text {
+  margin-bottom: 24px;
+}
+.about .container .about-content .opurtunity-list {
+  margin-bottom: 32px;
+  padding-left: 60px;
+}
+.about .container .about-content .opurtunity-list ul li {
+  line-height: 40px;
+  list-style-type: square;
+  list-style: none;
+  display: flex;
+  align-items: flex-start;
+}
+.about .container .about-content .opurtunity-list ul li::before {
+  content: url(../../assets/img/list-before.png);
+  color: red;
+  font-weight: bold;
+  display: inline-block;
+  height: 22px;
+  width: 22px;
+  margin-right: 16px;
+}
+
+/*# sourceMappingURL=about.css.map */

@@ -1,0 +1,39 @@
+.home-hero{
+    background-color: var(--primary-color);
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    position: relative;
+    .container{
+        .hero-content{
+            width: 50%;
+            position: relative;
+            z-index: 2;
+            .title{
+                margin-bottom: 24px;
+                .hero-title{
+                    
+                }
+            }
+            .subtitle{
+                margin-bottom: 48px;
+                span{
+                    font-weight: 600;
+                }
+            }
+            .watch{
+                a{
+
+                }
+            }
+        }
+    }
+    .hero-img{
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: right;
+    }
+}
